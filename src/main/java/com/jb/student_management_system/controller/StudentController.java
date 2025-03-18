@@ -30,7 +30,7 @@ public class StudentController
     {
         List<StudentDto> students = studentService.getAllStudents();
         model.addAttribute("students", students);
-        return "index";
+        return "student";
     }
 
     //handle - Add new student
